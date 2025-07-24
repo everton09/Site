@@ -11,14 +11,17 @@
       background: #FFFFFF;
       color: #333;
     }
+
     header, section, footer {
       padding: 2rem;
       text-align: center;
     }
+
     header {
       background-color: #064779;
       color: #C0C0C0;
     }
+
     .cta-button {
       display: inline-block;
       background-color: #D58E10;
@@ -31,9 +34,11 @@
       border: groove 2px #8B8A8A;
       margin: 20px 0;
     }
+
     .highlight {
       background: linear-gradient(to bottom, #064779, #FFFFFF);
     }
+
     .guarantee {
       display: flex;
       flex-wrap: wrap;
@@ -41,53 +46,84 @@
       gap: 2rem;
       align-items: center;
       padding: 2rem;
+      text-align: center;
     }
+
     .guarantee img {
       max-width: 300px;
+      margin: 0 auto;
     }
+
     .footer-links a {
       margin: 0 1rem;
       color: #000;
       text-decoration: underline;
     }
+
     .disclaimer {
       font-size: 0.8rem;
       color: #555;
       padding: 1rem;
       text-align: justify;
     }
-    .vsl-wrapper iframe {
+
+    .video-thumb img {
       width: 100%;
-      max-width: 900px;
-      height: 500px;
-      border: none;
+      max-width: 700px;
       border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      transition: transform 0.2s ease;
     }
+
+    .video-thumb:hover img {
+      transform: scale(1.02);
+    }
+
+    .video-thumb div {
+      margin-top: 10px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #0322FC;
+    }
+
   </style>
 </head>
 <body>
+
   <header>
-    <h1>ADVANCED AMINO FORMULA <img alt="icon picker" class="twiDtoj3 VhiVmLWC" draggable="false" src="https://cdn.coda.io/icons/svg/color/flex-biceps.svg"></h1>
-    <p>Limited Time Special Pricing - Act Now!<br>Secure Your Reserved ADVANCED AMINO FORMULA While Stock Last</p>
+    <h1>
+      ADVANCED AMINO FORMULA 
+      <img alt="icon picker" draggable="false" 
+           src="https://cdn.coda.io/icons/svg/color/flex-biceps.svg">
+    </h1>
+    <p>
+      Limited Time Special Pricing - Act Now!<br>
+      Secure Your Reserved ADVANCED AMINO FORMULA While Stock Last
+    </p>
   </header>
 
   <section class="highlight">
-    <img src="https://codaio.imgix.net/docs/Qds9FC0Bj4/blobs/bl-qUnE_rX2VA/c33b214e16d757debe1b23e43e1885ea0c036e7b3f0ed6655d72feafe5494d0621197a04f7983d2c804ac31c7a4789bb7c53b9dfee8085652a019ec4cb5c613d1b83b3e04e3d23b2fc5f39760c48bdf1e495c2920041b53d1f9cd3684f252bd78b721bce?fit=max&amp;fm=webp&amp;lossless=true" loading="lazy">
+    <img src="https://codaio.imgix.net/docs/Qds9FC0Bj4/blobs/bl-qUnE_rX2VA/c33b214e16d757debe1b23e43e1885ea0c036e7b3f0ed6655d72feafe5494d0621197a04f7983d2c804ac31c7a4789bb7c53b9dfee8085652a019ec4cb5c613d1b83b3e04e3d23b2fc5f39760c48bdf1e495c2920041b53d1f9cd3684f252bd78b721bce?fit=max&amp;fm=webp&amp;lossless=true" 
+         alt="Advanced Amino Banner" loading="lazy">
   </section>
 
-  <section style="text-align: center; padding: 2rem;">
-  <h2 style="font-size: 28px; color: #1a3a5e;">Watch the full video below:</h2>
-  
-  <a href="https://www.advancedbionutritionals.com/DS24/Advanced-Amino/Muscle-Mass-Loss/VSL-V1.htm#aff=AFFILIATE&cam=Tonstore" target="_blank" style="display: inline-block; text-decoration: none;">
-    <img src="https://assets.advancedbionutritionals.com/Images/Products-2020/Advanced-Amino-Formula/3bottle%402x.jpg" alt="Click to watch the video" style="width: 100%; max-width: 700px; border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.2); transition: transform 0.2s ease;">
-    <div style="margin-top: 10px; font-size: 20px; font-weight: bold; color: #0322FC;">▶️ Click to Watch</div>
-  </a>
-</section>
+  <section style="text-align: center;">
+    <h2 style="font-size: 28px; color: #1a3a5e;">Watch the full video below:</h2>
 
+    <a href="https://www.advancedbionutritionals.com/DS24/Advanced-Amino/Muscle-Mass-Loss/VSL-V1.htm#aff=AFFILIATE&cam=Tonstore" 
+       target="_blank" class="video-thumb">
+      <img src="https://assets.advancedbionutritionals.com/Images/Products-2020/Advanced-Amino-Formula/3bottle%402x.jpg" 
+           alt="Click to watch the video">
+      <div>▶️ Click to Watch</div>
+    </a>
+  </section>
 
   <section>
     <h2>Click on the button below!</h2>
-    <a class="cta-button" href="https://www.advancedbionutritionals.com/DS24/Advanced-Amino/Muscle-Mass-Loss/HD.htm#aff=AFFILIATE&cam=Tonstore">GO TO OFFICIAL WEBSITE!</a>
+    <a class="cta-button" 
+       href="https://www.advancedbionutritionals.com/DS24/Advanced-Amino/Muscle-Mass-Loss/HD.htm#aff=AFFILIATE&cam=Tonstore">
+       GO TO OFFICIAL WEBSITE!
+    </a>
   </section>
 
   <section>
@@ -97,7 +133,9 @@
   <section class="guarantee">
     <img src="https://assets.advancedbionutritionals.com/Images/Icons/Guarantee.png" alt="Garantia" />
     <div>
-      <h2 style="color: #1a3a5e; font-size: 33px;">NUMBER OF DAYS-MONEY BACK GUARANTEE</h2>
+      <h2 style="color: #1a3a5e; font-size: 33px;">
+        NUMBER OF DAYS-MONEY BACK GUARANTEE
+      </h2>
       <p style="font-size: 20px; color: #dc3d2c;">
         Every purchase is protected by our ABN™ 100% Satisfaction Guarantee. If you are unsatisfied for any reason, return it within 90 days for a full refund. You only pay return shipping.
       </p>
@@ -107,12 +145,12 @@
   <section>
     <h2 style="color:#0322FC;">
       <a href="https://www.advancedbionutritionals.com/DS24/Advanced-Amino/Muscle-Mass-Loss/SL-V1.htm#aff=AFFILIATE&cam=Tonstore">
-      <b><u>CLICK HERE TO READ MORE</u></b>
-        </a>
-      </h2>
+        <b><u>CLICK HERE TO READ MORE</u></b>
+      </a>
+    </h2>
     <p>
       The order you place today is a one-time payment<br>
-      NO Subscription - NO Hidden Charges<br>
+      NO Subscription - NO Hidden Charges
     </p>
   </section>
 
@@ -124,10 +162,11 @@
     </div>
     <div class="disclaimer">
       <p>
-        Copyright © 2024 Advanced Bionutritionals, LLC 5305 Oakbrook Parkway, Norcross, Georgia 30093
-        
+        Copyright © 2024 Advanced Bionutritionals, LLC 
+        5305 Oakbrook Parkway, Norcross, Georgia 30093
       </p>
     </div>
   </footer>
+
 </body>
 </html>
