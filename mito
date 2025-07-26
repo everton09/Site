@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Discover the Natural Way to Regain Your Energy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #0D48B8 0%, #0D98B8 20%, #0D98B8 80%, #0D48B8 100%);
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.95);
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-top: 40px;
+      border-radius: 10px;
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #1e3a8a;
+    }
+
+    h2 {
+      font-size: 22px;
+      color: #2563eb;
+      margin-top: 20px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .cta-button {
+      display: block;
+      width: 100%;
+      background-color: #22c55e;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+      font-size: 18px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #16a34a;
+    }
+
+    .disclaimer {
+      font-size: 12px;
+      color: #555;
+      margin-top: 30px;
+      border-top: 1px solid #ddd;
+      padding-top: 20px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-fc6c-622f-94b8-d8efb52da400/raw?se=2025-07-26T15%3A59%3A03Z&sp=r&sv=2024-08-04&sr=b&scid=7e0e9392-abce-5ebc-a4c5-e3502b402075&skoid=bbd22fc4-f881-4ea4-b2f3-c12033cf6a8b&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-25T20%3A57%3A57Z&ske=2025-07-26T20%3A57%3A57Z&sks=b&skv=2024-08-04&sig=yoJr24/%2BDJFQzCP62BqvQ8FDDhIUaqnx3T7jbsIiZRs%3D" />
+
+    <h1>Feel More Energetic While Supporting a Healthier Body</h1>
+    <p>Thousands of men over 40 are discovering a natural supplement that supports vitality, energy, and overall wellness — without the crash or side effects of harsh stimulants.</p>
+
+    <h2>Energy, Focus, and Body Goals</h2>
+    <p>This solution is designed to work with your body, helping to naturally support your goals — including maintaining healthy energy levels while encouraging better control over weight and appetite.</p>
+
+    <h2>For Those Who Want to Feel in Control Again</h2>
+    <p>If you've been feeling drained, unmotivated, or struggling with staying on track physically or mentally, you're not alone. Many men are experiencing positive changes by taking small, consistent steps toward better daily habits — supported by natural ingredients.</p>
+
+    <h2>Real Experiences, Real Change</h2>
+    <p>While individual results vary, users have shared how this supplement has helped them feel more active, focused, and lighter — all without sacrificing energy or motivation.</p>
+
+    <a class="cta-button" href="https://YOUR_AFFILIATE_LINK_HERE" target="_blank">
+      Learn More About This Natural Wellness Support
+    </a>
+
+    <div class="disclaimer">
+      <p>This site is not a part of ClickBank or the official product website. This page does not claim to be the creator or owner of any product. Information is provided for educational purposes only. Always consult your doctor before starting any supplement. Results may vary. This page complies with all FTC guidelines and does not make medical claims.</p>
+    </div>
+  </div>
+</body>
+</html>
